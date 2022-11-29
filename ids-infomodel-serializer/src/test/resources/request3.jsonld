@@ -1,0 +1,3850 @@
+{
+  "@context" : {
+    "ids" : "https://w3id.org/idsa/core/"
+  },
+  "@type" : "ids:DataResource",
+  "@id" : "http://w3id.org/mdp/metadata/-5646868446023868292",
+  "ids:title" : [ {
+    "@value" : "Gebündelte Eco-Counter Fahrradzählstelldaten Baden-Württemberg",
+    "@language" : "de"
+  } ],
+  "ids:modified" : {
+    "@value" : "2022-10-10T09:01:41.341Z",
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+  },
+  "https://w3id.org/mdp/schema#transportMode" : [ {
+    "@type" : "https://w3id.org/mdp/schema#TransportMode",
+    "@id" : "https://w3id.org/mdp/schema/transport_mode#TRANSPORT_OTHER"
+  } ],
+  "https://w3id.org/mdp/schema#dataCategory" : [ {
+    "@type" : "https://w3id.org/mdp/schema#DataCategory",
+    "@id" : "https://w3id.org/mdp/schema/data_categories#CAT_OTHER"
+  } ],
+  "https://w3id.org/mdp/schema#mdpBrokering" : [ false ],
+  "https://w3id.org/mdp/schema#networkCoverage" : [ {
+    "@type" : "https://w3id.org/mdp/schema#NetworkCoverage",
+    "@id" : "https://w3id.org/mdp/schema/network_coverage#NETWORK_OTHER"
+  } ],
+  "https://w3id.org/mdp/schema#qualityDescription" : [ {
+    "@value" : "",
+    "@type" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "https://w3id.org/mdp/schema#NASTAssessment" : [ {
+    "@value" : "",
+    "@type" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "https://w3id.org/mdp/schema#originalSource" : [ "<dcat:Dataset rdf:about=\"https://mcloud.de/web/guest/suche/-/results/detail/34ce4fb0-f682-4707-91f1-4d421dd42fe1\">\n    <dcterms:description xml:lang=\"de\">Bei den aufgelisteten Daten handelt es sich um gebündelte Fahrradzähldaten der aktuellen Eco-Counter Fahrradzählstellen in Städten und Gemeinden aus Baden-Württemberg. Über die Eco Visio Domain und den API-Store des Fahrradzählstellenbetreibers EcoCounter werden die lokal erhobenen Fahrradzähldaten abgerufen und in die hier genannten Ausgabeformate überführt.&#xd;\n&#xd;\nDerzeit stellen die unten aufgeführten Städte die Fahrradzähldaten über die EcoCounter Schnittstelle bereit. Zähldate dieser Städte sind in den hier abrufbaren Datensätzen gebündelt abrufbar. Die Datensätze enthalten historische (seit 2021) und aktuelle (innerhalb von 7 Tagen) Fahrradzähldaten. __Außerdem werden die aktuellen Daten stündlich aktualisiert__. Die Datensätze liegen in verschiedenen Formaten (CSV, JSON und EXCEL) vor. &#xd;\n&#xd;\nDie Anzahl der integrierten Kommunen wird kontinuierlich erweitert.&#xd;\n&#xd;\n__Städte der aktuellen Fahrradzählstellen__&#xd;\n&#xd;\n* __*__ Stadt Freiburg im Breisgau&#xd;\n&#xd;\n* __*__ Stadt Heidelberg&#xd;\n&#xd;\n* __*__ Stadt Konstanz&#xd;\n&#xd;\n* __*__ Stadt Offenburg&#xd;\n&#xd;\n* __*__ Stadt Ludwigsburg&#xd;\n&#xd;\n* __*__ Stadt Ulm&#xd;\n&#xd;\n__Datenquellen__&#xd;\n&#xd;\n* __*__ [Eco-Visio](https://www.eco-visio.net/)&#xd;\n* __*__ [Eco-Counter API Store](https://apiadmin.eco-counter-tools.com/store/site/pages/list-apis.jag)&#xd;\n&#xd;\n# Haftungsausschluss&#xd;\n&#xd;\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. Die NVBW mbH übernimmt keine Haftung und leistet keinerlei Gewähr.&#xd;\n</dcterms:description>\n    <dcterms:title xml:lang=\"de\">Gebündelte Eco-Counter Fahrradzählstelldaten Baden-Württemberg</dcterms:title>\n    <dcatde:contributorID rdf:resource=\"http://dcat-ap.de/def/contributors/mCloud\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler.csv#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler.json#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler.xlsx#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202101.csv.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202101.json.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202101.xlsx#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202102.csv.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202102.json.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202102.xlsx#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202103.csv.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202103.json.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202103.xlsx#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202104.csv.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202104.json.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202104.xlsx#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202105.csv.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202105.json.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202105.xlsx#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202106.csv.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202106.json.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202106.xlsx#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202107.csv.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202107.json.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202107.xlsx#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202108.csv.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202108.json.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202108.xlsx#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202109.csv.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202109.json.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202109.xlsx#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202110.csv.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202110.json.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202110.xlsx#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202111.csv.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202111.json.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202111.xlsx#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202112.csv.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202112.json.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202112.xlsx#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202201.csv.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202201.json.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202201.xlsx#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202202.csv.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202202.json.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202202.xlsx#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202203.csv.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202203.json.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202203.xlsx#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202204.csv.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202204.json.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202204.xlsx#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202205.csv.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202205.json.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202205.xlsx#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202206.csv.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202206.json.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202206.xlsx#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202207.csv.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202207.json.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202207.xlsx#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202208.csv.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202208.json.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202208.xlsx#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202209.csv.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202209.json.gz#distribution\"/>\n    <dcat:distribution rdf:resource=\"https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202209.xlsx#distribution\"/>\n    <dcat:keyword xml:lang=\"de\">API & Schnittstellen</dcat:keyword>\n    <dcat:keyword xml:lang=\"de\">Fuss- & Radverkehr</dcat:keyword>\n    <dcat:keyword xml:lang=\"de\">Beisgau</dcat:keyword>\n    <dcat:keyword xml:lang=\"de\">Bike counter</dcat:keyword>\n    <dcat:keyword xml:lang=\"de\">Eco-Counter</dcat:keyword>\n    <dcat:keyword xml:lang=\"de\">Fahrrad</dcat:keyword>\n    <dcat:keyword xml:lang=\"de\">Fahrradzählstellen</dcat:keyword>\n    <dcat:keyword xml:lang=\"de\">Freiburg</dcat:keyword>\n    <dcat:keyword xml:lang=\"de\">Gebündelte Fahrradzähldaten</dcat:keyword>\n    <dcat:keyword xml:lang=\"de\">Heidelberg</dcat:keyword>\n    <dcat:keyword xml:lang=\"de\">Konstanz</dcat:keyword>\n    <dcat:keyword xml:lang=\"de\">Ludwigsburg</dcat:keyword>\n    <dcat:keyword xml:lang=\"de\">Mobilität</dcat:keyword>\n    <dcat:keyword xml:lang=\"de\">Offenburg</dcat:keyword>\n    <dcat:keyword xml:lang=\"de\">Radzähler</dcat:keyword>\n    <dcat:keyword xml:lang=\"de\">Stadt Freiburg im Breisgau</dcat:keyword>\n    <dcat:keyword xml:lang=\"de\">Stadt Heidelberg</dcat:keyword>\n    <dcat:keyword xml:lang=\"de\">Stadt Konstanz</dcat:keyword>\n    <dcat:keyword xml:lang=\"de\">Stadt Ludwigsburg</dcat:keyword>\n    <dcat:keyword xml:lang=\"de\">Stadt Offenburg</dcat:keyword>\n    <dcat:keyword xml:lang=\"de\">Stadt Ulm</dcat:keyword>\n    <dcat:keyword xml:lang=\"de\">Ulm</dcat:keyword>\n    <dcat:keyword xml:lang=\"de\">mcloud_category_railway</dcat:keyword>\n    <dcat:keyword xml:lang=\"de\">mcloud_category_roads</dcat:keyword>\n    <dcterms:publisher>\n      <foaf:Agent rdf:about=\"https://mcloud.de/web/guest/suche/-/results/detail/34ce4fb0-f682-4707-91f1-4d421dd42fe1#publisher\">\n        <foaf:name>MobiData BW</foaf:name>\n      </foaf:Agent>\n    </dcterms:publisher>\n    <dcterms:creator>\n      <foaf:Organization>\n        <foaf:name>NVBW MobiData BW</foaf:name>\n        <foaf:mbox>mobidata-bw@nvbw.de</foaf:mbox>\n      </foaf:Organization>\n    </dcterms:creator>\n    <dcterms:identifier>34ce4fb0-f682-4707-91f1-4d421dd42fe1</dcterms:identifier>\n    <dcterms:issued rdf:datatype=\"http://www.w3.org/2001/XMLSchema#date\">2022-07-08T09:20:07.185Z</dcterms:issued>\n    <dcterms:modified rdf:datatype=\"http://www.w3.org/2001/XMLSchema#date\">2022-10-10T09:01:41.341Z</dcterms:modified>\n    <dcat:theme rdf:resource=\"http://publications.europa.eu/resource/authority/data-theme/TRAN\"/>\n  </dcat:Dataset>" ],
+  "https://w3id.org/mdp/schema#originalSourceFormat" : [ {
+    "@type" : "https://w3id.org/mdp/schema#SourceFormat",
+    "@id" : "https://w3id.org/mdp/schema/source_format#DCAT"
+  } ],
+  "https://w3id.org/mdp/schema#publicationId" : [ -5646868446023868292 ],
+  "https://w3id.org/mdp/schema#originatedFrom" : [ {
+    "@type" : "https://w3id.org/mdp/schema#Portal",
+    "@id" : "https://w3id.org/mdp/schema/portal#M_CLOUD"
+  } ],
+  "https://w3id.org/mdp/schema#originatedFromURI" : [ {
+    "@id" : "https://mcloud.de/web/guest/suche/-/results/detail/34ce4fb0-f682-4707-91f1-4d421dd42fe1"
+  } ],
+  "ids:resourceEndpoint" : [ {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/2c6521f7-38a2-4433-9f96-51a734edc768",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/9a035f5c-bee1-4aac-a211-65cd4b0c630b",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T12:37:57.420Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler.csv"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler.csv"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/38500e81-af9b-43ec-8f83-7fb91e0b2152",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/72f30506-0126-4a59-a2fa-942bd2db04a2",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T12:38:58.361Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler.json"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler.json"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/8e50396b-e7c4-4d30-9224-614d36de9047",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/f377f9ad-99b9-411d-af91-9e1ee56c69a8",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T12:40:15.075Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler.xlsx"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler.xlsx"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/224a3cc1-5cd6-4282-8dc6-bb915f4097d3",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/abdb3975-1b88-487d-ba48-b61d1058a629",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:22:05.209Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202101.csv.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202101.csv.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/bd94145a-ab11-4d9a-9c13-9e8941581ce6",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/bf1b09ab-7172-41be-bce7-8cd1506a5265",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:22:26.531Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202101.json.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202101.json.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/e6b47e41-c97b-4c64-9c30-9cff61ff762d",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/081b5f73-2592-4949-b15e-7ae413b0f0d2",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:23:08.550Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202101.xlsx"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202101.xlsx"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/ecbd7739-4f19-4547-8be3-cf6725c6967a",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/7cb55c79-682b-4d6e-8530-7c607b68bebf",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:20:37.998Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202102.csv.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202102.csv.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/f13476ef-49d8-47c5-97db-ac997dcc4b99",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/a55fe9a5-c2d6-4a36-9eb3-6a46f2c8220c",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:20:57.214Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202102.json.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202102.json.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/908a7785-a36a-4156-a5ae-03f3b176e31e",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/43645e8d-bc54-4780-b75a-224ba7f3a194",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:21:17.468Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202102.xlsx"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202102.xlsx"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/6ae716c7-99ba-4255-9935-9e22246c1738",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/d6453b05-f665-4395-b4c0-fe5ab6c33980",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:17:16.791Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202103.csv.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202103.csv.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/3bcfa077-88c6-4737-a573-e8dbe88a5616",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/97484a92-f752-41c9-b366-72e525dd28d2",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:18:09.108Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202103.json.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202103.json.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/d44e3e3f-9bc9-439c-9a08-af323cb83db6",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/bb21582b-8204-48ac-bfc2-33bd0396b86f",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:18:33.230Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202103.xlsx"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202103.xlsx"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/b1ddef76-dfe7-4d1b-b488-07c496bab9d4",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/2fa82e97-4c2e-457b-a7d8-234457c985b2",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:15:25.816Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202104.csv.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202104.csv.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/ac277319-d12f-4342-acf9-7965ee13bf28",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/cdb8358e-4047-4852-8c4e-48766ad54fc9",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:15:52.397Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202104.json.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202104.json.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/ce75e4cc-2139-4d76-9eb7-3270f434cc45",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/26f9d2ba-8b0a-437e-aab8-b742bcdc9ff8",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:16:21.645Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202104.xlsx"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202104.xlsx"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/553fbf72-a88c-47f7-81a5-f6336d147d59",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/e9b26503-8700-48bd-880f-b86275a29ea7",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:13:04.896Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202105.csv.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202105.csv.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/b2c3499f-c928-42c7-8fb8-10dab4cb6bc3",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/c1cb0869-8a28-4f15-b137-76c1cd413d9e",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:13:40.649Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202105.json.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202105.json.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/edbd97a5-962d-48b0-ae82-eedad3ac1976",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/caaac98f-efeb-4c74-97db-285746eea3d7",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:14:13.249Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202105.xlsx"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202105.xlsx"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/acaf7ae7-22f9-4844-a6b9-655b5a2bd746",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/1fa423b7-d282-4950-8086-a2ef237c81da",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:10:23.557Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202106.csv.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202106.csv.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/27e97ca5-fde3-4b06-ac84-b18d992648ad",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/55631f7c-1637-42d8-b3fd-9fc7c0826ac1",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:11:04.631Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202106.json.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202106.json.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/3390ea27-43c1-46ed-b226-55ec6d961fb6",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/0644f928-8ac2-4768-9d1d-48b73ecca5b6",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:11:45.941Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202106.xlsx"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202106.xlsx"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/7f1af09b-cf1f-4262-a8db-b2415c478a22",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/0f89794a-c2a1-41a8-9040-23757629adea",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:07:43.276Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202107.csv.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202107.csv.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/ea7b5161-3606-43fb-8049-05deed401740",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/7e32f1e3-13df-4648-9f69-0eb0e968527b",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:08:30.034Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202107.json.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202107.json.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/ee576483-c2ae-48f0-9fe0-a555adbb33f7",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/96041736-ade8-4a40-9bfe-dd00d329e08b",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:09:09.823Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202107.xlsx"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202107.xlsx"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/3c801fd2-75ce-4868-b860-ca44db2aedee",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/8a43f332-3a1c-41d9-95b3-39e07522a714",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:04:31.176Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202108.csv.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202108.csv.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/92d7df22-419a-4069-afbf-22ee07749ca0",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/d1dbc676-59a1-40a2-bc44-32757cd9db3a",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:06:18.554Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202108.json.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202108.json.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/ef468f5f-069b-4f63-a569-d39184729464",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/1699d352-01c4-4d3c-815d-98461ef92d24",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:06:58.703Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202108.xlsx"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202108.xlsx"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/4d8ca907-0cb9-4ae6-8e87-d5f8a66595b8",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/e53faa9f-d9d4-4da4-a5f1-045d0b5965c8",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:02:34.129Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202109.csv.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202109.csv.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/a3856299-edf0-46f5-a70d-a5755c50a516",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/cf39ea0f-3a35-4732-b82f-d2c2a3b3612c",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:03:10.658Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202109.json.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202109.json.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/ff62f7be-e4e1-4ee2-8335-506554e3664b",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/a80e490c-ebf1-4f03-b634-84d09efbfedb",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:03:39.704Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202109.xlsx"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202109.xlsx"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/a7113fba-80d4-48ad-ab8c-11c091afd64f",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/7c0abddd-774d-487a-bfb3-01e4f20b35ea",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T12:59:54.973Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202110.csv.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202110.csv.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/778ab736-2536-4aa2-bb0e-15b1471d620e",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/b960dbf6-ae96-4f1c-9790-32eea67d4ccf",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:00:51.126Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202110.json.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202110.json.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/ffb2bb3c-b3d0-4e0f-8110-7885d1e93df1",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/1e7db6a1-c4fe-41b1-a8b5-7b814bc66a4e",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:01:28.999Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202110.xlsx"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202110.xlsx"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/ce55f314-b98d-4791-8d58-d7091b267a19",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/47df84e4-af9e-4a9c-8309-09c14bc098d3",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T12:57:46.192Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202111.csv.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202111.csv.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/fc535f3f-510d-4745-9648-40f2b540680f",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/bc4be8b9-2711-4527-8c6e-e1be75cc84d7",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T12:58:23.487Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202111.json.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202111.json.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/9a1289ae-d061-418f-b64c-0d5f23d91c96",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/a56fdd56-b51a-4088-a64a-5e887acdf4c1",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T12:59:06.462Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202111.xlsx"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202111.xlsx"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/3dfb35e9-ec4c-421f-955d-92c0b9faa735",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/df8017fe-fc6b-4cfa-9d6d-661cf588953b",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T12:54:45.489Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202112.csv.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202112.csv.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/e9408682-0436-439b-9586-5da94ef786c9",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/e56a2b37-dcbe-4725-9987-d2b42fff974d",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T12:55:22.288Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202112.json.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202112.json.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/75f0f302-4747-4dcb-b21f-19482f7e8a81",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/65e21cd6-155a-40f0-9449-24483c4b7066",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T12:56:12.608Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202112.xlsx"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202112.xlsx"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/c3c206b9-adf3-487d-8dcc-810cca9406a4",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/49fdf716-ad9d-4fda-9457-34ce5f64f136",
+      "ids:creationDate" : {
+        "@value" : "2022-05-06T12:01:29.441Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202201.csv.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202201.csv.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/626ab5f0-38fb-4375-acab-03574e1bc7c1",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/98b2950a-699e-46dc-9c50-22c98a0b4e59",
+      "ids:creationDate" : {
+        "@value" : "2022-05-06T12:04:58.886Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202201.json.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202201.json.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/4dd43eb9-01a4-45b5-b1cd-51acda99f12b",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/f4db6f33-4f61-408f-94be-41f77a32da5c",
+      "ids:creationDate" : {
+        "@value" : "2022-05-06T12:07:05.908Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202201.xlsx"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202201.xlsx"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/7cd7ac76-0309-4d9d-a9a8-3667efb78af2",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/0ed9c318-3fee-4fe1-9b15-c4a10404903a",
+      "ids:creationDate" : {
+        "@value" : "2022-05-09T09:19:56.536Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202202.csv.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202202.csv.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/fd810f9c-9222-4b15-b3f0-a0a0f1336cba",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/b2d1acac-1ced-4410-b254-99b857713195",
+      "ids:creationDate" : {
+        "@value" : "2022-05-09T09:21:29.848Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202202.json.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202202.json.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/41cd87f6-5772-4ade-a621-0d965f7b275f",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/152e2923-fecb-4d7b-a8ea-2bcbef0768b8",
+      "ids:creationDate" : {
+        "@value" : "2022-05-09T09:22:02.686Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202202.xlsx"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202202.xlsx"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/a74cb473-a478-4d50-8d18-fb4eeb86a496",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/77b98c9e-e6a3-4355-bdc4-db0ac561a548",
+      "ids:creationDate" : {
+        "@value" : "2022-05-09T09:23:36.581Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202203.csv.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202203.csv.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/fdd451fc-6280-44de-a3eb-9736021d0b44",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/e395096b-2654-4bdf-9298-faf257b06ef5",
+      "ids:creationDate" : {
+        "@value" : "2022-05-09T09:24:00.391Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202203.json.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202203.json.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/57a61262-8a3a-423d-83f2-dd26492af673",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/8a07f36b-6428-46cd-922f-5bc0c14b88dd",
+      "ids:creationDate" : {
+        "@value" : "2022-05-09T09:24:33.289Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202203.xlsx"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202203.xlsx"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/0e6bfc86-0911-4edf-aff4-d12c346f081b",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/4f36f0dc-0995-41a3-a661-aa39b9c50889",
+      "ids:creationDate" : {
+        "@value" : "2022-05-09T09:25:11.351Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202204.csv.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202204.csv.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/c19468a5-e7dd-4f4f-8493-80ce2223a7b0",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/849207fe-92b6-4f7b-abb6-48dabe057128",
+      "ids:creationDate" : {
+        "@value" : "2022-05-09T09:25:47.240Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202204.json.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202204.json.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/7d3cbc4e-234e-43e1-a818-33521c0747ac",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/de27cbab-07f8-45f3-a28b-f32cfee6a1ae",
+      "ids:creationDate" : {
+        "@value" : "2022-05-09T09:26:13.644Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202204.xlsx"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202204.xlsx"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/f049cdf3-1c17-4210-b2aa-e5f5b2bac0cd",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/50e86c2c-b007-4da5-8007-d351934e2d30",
+      "ids:creationDate" : {
+        "@value" : "2022-05-09T09:27:00.887Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202205.csv.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202205.csv.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/f32637de-e9da-4c8c-8bea-7559d1e1d2a1",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/fb7846e2-d2f5-4509-ae2f-c126e4a0872c",
+      "ids:creationDate" : {
+        "@value" : "2022-05-09T09:27:23.612Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202205.json.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202205.json.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/1cbc945f-5877-47b1-9b3d-5cd955b29fa4",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/8d3be1d8-5d9b-465f-8e6c-64b99f842be8",
+      "ids:creationDate" : {
+        "@value" : "2022-05-09T09:28:20.834Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202205.xlsx"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202205.xlsx"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/3bb22b82-9372-4b33-b5a8-c806ff587047",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/130ce6ce-6576-4f9b-ad3a-649da48308ad",
+      "ids:creationDate" : {
+        "@value" : "2022-06-20T13:53:59.500Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202206.csv.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202206.csv.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/d6ab0a85-3c40-4d01-ae65-71ba004b24ec",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/b8821bb7-fd48-43c2-8cf0-d8e2d93f124e",
+      "ids:creationDate" : {
+        "@value" : "2022-06-20T13:54:49.308Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202206.json.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202206.json.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/19173bee-abf7-495d-ba52-548eeef52dc5",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/55067547-ac91-4588-943a-cd2b19dc2440",
+      "ids:creationDate" : {
+        "@value" : "2022-06-20T13:56:00.116Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202206.xlsx"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202206.xlsx"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/88a87419-b988-4448-8b35-739a9b621dc6",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/4d5499b9-22ef-42c4-93a6-de8ea0a6a629",
+      "ids:creationDate" : {
+        "@value" : "2022-08-25T08:19:50.586Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202207.csv.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202207.csv.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/16c224a2-3e62-4d56-8d89-f7e80a11e684",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/22cadd03-501d-48f1-9c1d-c0d53eadecde",
+      "ids:creationDate" : {
+        "@value" : "2022-08-25T08:20:50.786Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202207.json.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202207.json.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/b43c45b5-be46-4942-b575-91f15240c767",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/8ee97f25-ab71-4e65-91e2-5f03a38ba9a9",
+      "ids:creationDate" : {
+        "@value" : "2022-08-25T08:21:46.794Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202207.xlsx"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202207.xlsx"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/043ccdcc-36d9-4813-a290-85e2c489d546",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/dd921f0f-2c8a-4434-8219-7dd8a1b150fc",
+      "ids:creationDate" : {
+        "@value" : "2022-08-25T08:22:43.898Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202208.csv.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202208.csv.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/5a857220-8893-4883-93b8-a6e1d9b72918",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/3a9ab44f-a103-49d2-92dd-46af4fbcd5ee",
+      "ids:creationDate" : {
+        "@value" : "2022-08-25T08:23:32.433Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202208.json.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202208.json.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/0ca0d938-a5e5-45fd-9f1c-e4e5a4fc2a93",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/e89ac8cc-3ee6-4d69-91d4-488372085c17",
+      "ids:creationDate" : {
+        "@value" : "2022-08-25T08:24:12.962Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202208.xlsx"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202208.xlsx"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/00dc9e9a-e63e-4b63-845e-13dcf1dedda4",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/69ce479e-89ca-4ea1-946c-3ce30d5f2d31",
+      "ids:creationDate" : {
+        "@value" : "2022-09-28T06:35:04.460Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202209.csv.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202209.csv.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/c1fd77d3-ad8e-4451-bd66-45000ccf6e00",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/c1dabfef-11f5-42af-b843-347b71e60ae2",
+      "ids:creationDate" : {
+        "@value" : "2022-09-28T06:36:03.112Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202209.json.gz"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202209.json.gz"
+    } ]
+  }, {
+    "@type" : "ids:ConnectorEndpoint",
+    "@id" : "https://w3id.org/idsa/autogen/connectorEndpoint/88509a94-3018-4a70-9bbe-5fdab84f30d5",
+    "ids:endpointArtifact" : {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/c4303ee6-4a98-439a-ba24-e8c23be4bafb",
+      "ids:creationDate" : {
+        "@value" : "2022-09-28T06:37:13.562Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    },
+    "https://w3id.org/mdp/schema#providedByMDP" : [ false ],
+    "https://w3id.org/mdp/schema#accessProtocol" : [ {
+      "@type" : "https://w3id.org/mdp/schema#AccessProtocol",
+      "@id" : "https://w3id.org/mdp/schema/access_protocol#HTTPS"
+    } ],
+    "ids:accessURL" : {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202209.xlsx"
+    },
+    "ids:endpointDocumentation" : [ {
+      "@id" : "https://mobidata-bw.de/daten/eco-counter/eco_counter_fahrradzaehler_202209.xlsx"
+    } ]
+  } ],
+  "ids:publisher" : {
+    "@type" : "ids:Participant",
+    "@id" : "https://w3id.org/idsa/autogen/participant/0faff503-e06a-48ce-92ca-0862e499b837",
+    "https://w3id.org/mdp/schema#mdpUserServiceID" : [ {
+      "@id" : "https://mcloud.de/web/guest/suche/-/results/detail/34ce4fb0-f682-4707-91f1-4d421dd42fe1#publisher"
+    } ],
+    "https://w3id.org/mdp/schema#userFromMdp" : [ false ],
+    "ids:legalName" : [ "MobiData BW" ],
+    "ids:legalForm" : "unknown"
+  },
+  "ids:standardLicense" : {
+    "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+  },
+  "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+    "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+    "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+  } ],
+  "ids:keyword" : [ {
+    "@value" : "API & Schnittstellen",
+    "@language" : "de"
+  }, {
+    "@value" : "Fuss- & Radverkehr",
+    "@language" : "de"
+  }, {
+    "@value" : "Beisgau",
+    "@language" : "de"
+  }, {
+    "@value" : "Bike counter",
+    "@language" : "de"
+  }, {
+    "@value" : "Eco-Counter",
+    "@language" : "de"
+  }, {
+    "@value" : "Fahrrad",
+    "@language" : "de"
+  }, {
+    "@value" : "Fahrradzählstellen",
+    "@language" : "de"
+  }, {
+    "@value" : "Freiburg",
+    "@language" : "de"
+  }, {
+    "@value" : "Gebündelte Fahrradzähldaten",
+    "@language" : "de"
+  }, {
+    "@value" : "Heidelberg",
+    "@language" : "de"
+  }, {
+    "@value" : "Konstanz",
+    "@language" : "de"
+  }, {
+    "@value" : "Ludwigsburg",
+    "@language" : "de"
+  }, {
+    "@value" : "Mobilität",
+    "@language" : "de"
+  }, {
+    "@value" : "Offenburg",
+    "@language" : "de"
+  }, {
+    "@value" : "Radzähler",
+    "@language" : "de"
+  }, {
+    "@value" : "Stadt Freiburg im Breisgau",
+    "@language" : "de"
+  }, {
+    "@value" : "Stadt Heidelberg",
+    "@language" : "de"
+  }, {
+    "@value" : "Stadt Konstanz",
+    "@language" : "de"
+  }, {
+    "@value" : "Stadt Ludwigsburg",
+    "@language" : "de"
+  }, {
+    "@value" : "Stadt Offenburg",
+    "@language" : "de"
+  }, {
+    "@value" : "Stadt Ulm",
+    "@language" : "de"
+  }, {
+    "@value" : "Ulm",
+    "@language" : "de"
+  } ],
+  "ids:representation" : [ {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/66154ee4-7ca1-4883-b137-d4eef50b2a86",
+    "ids:title" : [ {
+      "@value" : "Aktuelle Fahrradzähldaten (CSV)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/CSV"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten der letzten 7 Tagen",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/9a035f5c-bee1-4aac-a211-65cd4b0c630b",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T12:37:57.420Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/913e77d4-57a2-4b53-8187-e1d8f067f286",
+    "ids:title" : [ {
+      "@value" : "Aktuelle Fahrradzähldaten (JSON)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "https://www.iana.org/assignments/media-types/application/json"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten der letzten 7 Tagen",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/72f30506-0126-4a59-a2fa-942bd2db04a2",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T12:38:58.361Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/976f4fc8-a6aa-4bf6-9ee3-f5724b5d48a3",
+    "ids:title" : [ {
+      "@value" : "Aktuelle Fahrradzähldaten (EXCEL)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/XLSX"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten der letzten 7 Tagen",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/f377f9ad-99b9-411d-af91-9e1ee56c69a8",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T12:40:15.075Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/2153828d-32be-45d5-a5b6-3357aa631a4c",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Januar 2021 (CSV)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/CSV"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Januar 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/abdb3975-1b88-487d-ba48-b61d1058a629",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:22:05.209Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/75d04704-edbc-4f2a-8690-cf0a0e4da76d",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Januar 2021 (JSON)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "https://www.iana.org/assignments/media-types/application/json"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Januar 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/bf1b09ab-7172-41be-bce7-8cd1506a5265",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:22:26.531Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/9945a98b-b5c1-4a64-b162-c2b2cf65e86f",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Januar 2021 (EXCEL)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/XLSX"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Januar 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/081b5f73-2592-4949-b15e-7ae413b0f0d2",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:23:08.550Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/61bbedf0-9bb5-4855-9807-1599c2e91013",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Februar 2021 (CSV)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/CSV"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Februar 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/7cb55c79-682b-4d6e-8530-7c607b68bebf",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:20:37.998Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/66e02860-c7b7-4998-9d6f-459c8bb79a9e",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Februar 2021 (JSON)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "https://www.iana.org/assignments/media-types/application/json"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Februar 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/a55fe9a5-c2d6-4a36-9eb3-6a46f2c8220c",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:20:57.214Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/dcb5d5e0-ef5d-4c8c-a9af-7d7935e3b593",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Februar 2021 (EXCEL)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/XLSX"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Februar 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/43645e8d-bc54-4780-b75a-224ba7f3a194",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:21:17.468Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/8e51c85f-5703-4b7c-ac3e-706a1ac2acf0",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im März 2021 (CSV)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/CSV"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im März 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/d6453b05-f665-4395-b4c0-fe5ab6c33980",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:17:16.791Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/ccd3989b-2884-489a-9353-7c3d36f7a972",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im März 2021 (JSON)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "https://www.iana.org/assignments/media-types/application/json"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im März 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/97484a92-f752-41c9-b366-72e525dd28d2",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:18:09.108Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/34bee7ff-e6a5-40db-8406-18d6fd3e1c7f",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im März 2021 (EXCEL)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/XLSX"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im März 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/bb21582b-8204-48ac-bfc2-33bd0396b86f",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:18:33.230Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/2081c9b9-9cae-4702-a378-5ffd973d2874",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im April 2021 (CSV)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/CSV"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im April 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/2fa82e97-4c2e-457b-a7d8-234457c985b2",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:15:25.816Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/970faa10-92bc-4056-88ab-99b770dcc357",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im April 2021 (JSON)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "https://www.iana.org/assignments/media-types/application/json"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im April 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/cdb8358e-4047-4852-8c4e-48766ad54fc9",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:15:52.397Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/08ab68ca-0007-4309-b865-9b80194cfa9f",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im April 2021 (EXCEL)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/XLSX"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im April 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/26f9d2ba-8b0a-437e-aab8-b742bcdc9ff8",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:16:21.645Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/8ef12576-1620-492b-860b-651f739dc2a9",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Mai 2021 (CSV)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/CSV"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Mai 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/e9b26503-8700-48bd-880f-b86275a29ea7",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:13:04.896Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/1b5bf75b-6bac-46f6-9f7a-6026e26d9604",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Mai 2021 (JSON)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "https://www.iana.org/assignments/media-types/application/json"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Mai 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/c1cb0869-8a28-4f15-b137-76c1cd413d9e",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:13:40.649Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/91ad160c-5795-4c64-9f7b-ff01ee780b07",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Mai 2021 (EXCEL)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/XLSX"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Mai 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/caaac98f-efeb-4c74-97db-285746eea3d7",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:14:13.249Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/ad9ff3fb-7b8c-450c-a25b-a2be2253dee2",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Juni 2021 (CSV)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/CSV"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Juli 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/1fa423b7-d282-4950-8086-a2ef237c81da",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:10:23.557Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/40357b99-6a1a-41de-8265-8f09ccce32eb",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Juni 2021 (JSON)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "https://www.iana.org/assignments/media-types/application/json"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Juni 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/55631f7c-1637-42d8-b3fd-9fc7c0826ac1",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:11:04.631Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/1412019e-90b5-40c8-aa5a-345adebe8470",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Juni 2021 (EXCEL)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/XLSX"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Juni 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/0644f928-8ac2-4768-9d1d-48b73ecca5b6",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:11:45.941Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/2dce41e0-a48c-4159-be67-08d47448103d",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Juli 2021 (CSV)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/CSV"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Juli 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/0f89794a-c2a1-41a8-9040-23757629adea",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:07:43.276Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/cd6a86c0-92c6-4fcf-8e6b-ad1490763983",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Juli 2021 (JSON)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "https://www.iana.org/assignments/media-types/application/json"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Juli 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/7e32f1e3-13df-4648-9f69-0eb0e968527b",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:08:30.034Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/a3d8e974-de34-44c6-b664-0e820ed1e2e0",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Juli 2021 (EXCEL)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/XLSX"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Juli 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/96041736-ade8-4a40-9bfe-dd00d329e08b",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:09:09.823Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/b5d1bce5-db40-478a-be21-c697e1f824b2",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im August 2021 (CSV)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/CSV"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im August 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/8a43f332-3a1c-41d9-95b3-39e07522a714",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:04:31.176Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/ff655070-1f54-4cc6-9fec-fd219d47f78f",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im August 2021 (JSON)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "https://www.iana.org/assignments/media-types/application/json"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im August 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/d1dbc676-59a1-40a2-bc44-32757cd9db3a",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:06:18.554Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/1598327c-8a51-40b1-bde0-32e5a50e5e6b",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im August 2021 (EXCEL)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/XLSX"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im August 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/1699d352-01c4-4d3c-815d-98461ef92d24",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:06:58.703Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/5a3202e8-9130-4a3e-9c1b-4f025f33a1ad",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im September 2021 (CSV)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/CSV"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im September 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/e53faa9f-d9d4-4da4-a5f1-045d0b5965c8",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:02:34.129Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/508e55c5-92a7-4234-899b-83f865c6572a",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im September 2021 (JSON)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "https://www.iana.org/assignments/media-types/application/json"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im September 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/cf39ea0f-3a35-4732-b82f-d2c2a3b3612c",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:03:10.658Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/1edb36f5-c536-45ee-8f32-fc8dc359f538",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im September 2021 (EXCEL)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/XLSX"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im September 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/a80e490c-ebf1-4f03-b634-84d09efbfedb",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:03:39.704Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/a2ba9339-6a90-4a1e-a19d-6371152a4099",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Oktober 2021 (CSV)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/CSV"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Oktober 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/7c0abddd-774d-487a-bfb3-01e4f20b35ea",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T12:59:54.973Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/2349bea5-c2b9-49df-a2f5-90898817356a",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Oktober 2021 (JSON)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "https://www.iana.org/assignments/media-types/application/json"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Oktober 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/b960dbf6-ae96-4f1c-9790-32eea67d4ccf",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:00:51.126Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/532d4de3-ce86-4552-b568-58a119a2e372",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Oktober 2021 (EXCEL)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/XLSX"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Oktober 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/1e7db6a1-c4fe-41b1-a8b5-7b814bc66a4e",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T13:01:28.999Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/017fc32b-7458-4704-90c4-a149cd9532d7",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im November 2021 (CSV)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/CSV"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im November 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/47df84e4-af9e-4a9c-8309-09c14bc098d3",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T12:57:46.192Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/27e1fb1d-d7fc-4974-8e36-54220b5899d7",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im November 2021 (JSON)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "https://www.iana.org/assignments/media-types/application/json"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im November 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/bc4be8b9-2711-4527-8c6e-e1be75cc84d7",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T12:58:23.487Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/f8a9fe65-a4dd-4ca1-b797-5a258592fc8a",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im November 2021 (EXCEL)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/XLSX"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im November 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/a56fdd56-b51a-4088-a64a-5e887acdf4c1",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T12:59:06.462Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/0de78bee-2640-4b56-b74d-a1a48f1954ad",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Dezember 2021 (CSV)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/CSV"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Dezember 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/df8017fe-fc6b-4cfa-9d6d-661cf588953b",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T12:54:45.489Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/b2ab1f38-51af-43d2-bc7b-939a51c188a4",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Dezember 2021 (JSON)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "https://www.iana.org/assignments/media-types/application/json"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Dezember 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/e56a2b37-dcbe-4725-9987-d2b42fff974d",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T12:55:22.288Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/2280e1b0-5d50-4012-aa08-6ca32dfbe9b4",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Dezember 2021 (EXCEL)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/XLSX"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Dezember 2021",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/65e21cd6-155a-40f0-9449-24483c4b7066",
+      "ids:creationDate" : {
+        "@value" : "2022-04-26T12:56:12.608Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/7dea7ffb-833e-48f9-8696-4c403f87026c",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Januar 2022 (CSV)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/CSV"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Januar 2022",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/49fdf716-ad9d-4fda-9457-34ce5f64f136",
+      "ids:creationDate" : {
+        "@value" : "2022-05-06T12:01:29.441Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/599218d5-2904-4ced-8cfa-6268bff7ef94",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Januar 2022 (JSON)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "https://www.iana.org/assignments/media-types/application/json"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Januar 2022",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/98b2950a-699e-46dc-9c50-22c98a0b4e59",
+      "ids:creationDate" : {
+        "@value" : "2022-05-06T12:04:58.886Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/eb3d65e8-acf3-45e0-9f2b-3fc0bbd11734",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Januar 2022 (EXCEL)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/XLSX"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Januar 2022",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/f4db6f33-4f61-408f-94be-41f77a32da5c",
+      "ids:creationDate" : {
+        "@value" : "2022-05-06T12:07:05.908Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/77768eea-11e1-400a-8f20-408d02eeec13",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Februar 2022 (CSV)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/CSV"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Februar 2022",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/0ed9c318-3fee-4fe1-9b15-c4a10404903a",
+      "ids:creationDate" : {
+        "@value" : "2022-05-09T09:19:56.536Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/3efa60be-ebee-4eb0-ba45-7b39a8b85823",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Februar 2022 (JSON)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "https://www.iana.org/assignments/media-types/application/json"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Februar 2022",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/b2d1acac-1ced-4410-b254-99b857713195",
+      "ids:creationDate" : {
+        "@value" : "2022-05-09T09:21:29.848Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/2512b5d9-f4a7-47db-ad14-ebec3d30d7fd",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Februar 2022 (EXCEL)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/XLSX"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Februar 2022",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/152e2923-fecb-4d7b-a8ea-2bcbef0768b8",
+      "ids:creationDate" : {
+        "@value" : "2022-05-09T09:22:02.686Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/8c72691d-150d-449f-b84e-51ed30776c92",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im März 2022 (CSV)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/CSV"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im März 2022",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/77b98c9e-e6a3-4355-bdc4-db0ac561a548",
+      "ids:creationDate" : {
+        "@value" : "2022-05-09T09:23:36.581Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/6d854041-b3dd-4d68-b941-ef4650f8275f",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im März 2022 (JSON)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "https://www.iana.org/assignments/media-types/application/json"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im März 2022",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/e395096b-2654-4bdf-9298-faf257b06ef5",
+      "ids:creationDate" : {
+        "@value" : "2022-05-09T09:24:00.391Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/e7a747ee-d3f2-4e12-aa9b-734b2d3d7ff7",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im März 2022 (EXCEL)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/XLSX"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im März 2022",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/8a07f36b-6428-46cd-922f-5bc0c14b88dd",
+      "ids:creationDate" : {
+        "@value" : "2022-05-09T09:24:33.289Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/9789fcda-01dd-406f-9b84-43ca331f9ec2",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im April 2022 (CSV)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/CSV"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im April 2022",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/4f36f0dc-0995-41a3-a661-aa39b9c50889",
+      "ids:creationDate" : {
+        "@value" : "2022-05-09T09:25:11.351Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/28c80564-8d16-4410-8206-9c1d9cff2c75",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im April 2022 (JSON)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "https://www.iana.org/assignments/media-types/application/json"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im April 2022",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/849207fe-92b6-4f7b-abb6-48dabe057128",
+      "ids:creationDate" : {
+        "@value" : "2022-05-09T09:25:47.240Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/c01fa625-e658-4f69-9a95-89f36816715a",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im April 2022 (EXCEL)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/XLSX"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im April 2022",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/de27cbab-07f8-45f3-a28b-f32cfee6a1ae",
+      "ids:creationDate" : {
+        "@value" : "2022-05-09T09:26:13.644Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/30b5f624-0e73-43ab-bfc4-280283b01551",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Mai 2022 (CSV)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/CSV"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Mai 2022",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/50e86c2c-b007-4da5-8007-d351934e2d30",
+      "ids:creationDate" : {
+        "@value" : "2022-05-09T09:27:00.887Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/6fe5841a-4ac0-4e5c-b844-5252326f9a44",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Mai 2022 (JSON)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "https://www.iana.org/assignments/media-types/application/json"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Mai 2022",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/fb7846e2-d2f5-4509-ae2f-c126e4a0872c",
+      "ids:creationDate" : {
+        "@value" : "2022-05-09T09:27:23.612Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/d664db41-f3c7-4080-8545-51263b32f756",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Mai 2022 (EXCEL)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/XLSX"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Mai 2022",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/8d3be1d8-5d9b-465f-8e6c-64b99f842be8",
+      "ids:creationDate" : {
+        "@value" : "2022-05-09T09:28:20.834Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/dbd20c49-f5c4-4f37-b54f-8d283ffe125b",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Juni 2022 (CSV)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/CSV"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Juni 2022",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/130ce6ce-6576-4f9b-ad3a-649da48308ad",
+      "ids:creationDate" : {
+        "@value" : "2022-06-20T13:53:59.500Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/65fb4b16-8282-4c52-9f1e-4a578c365adf",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Juni 2022 (JSON)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "https://www.iana.org/assignments/media-types/application/json"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Juni 2022",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/b8821bb7-fd48-43c2-8cf0-d8e2d93f124e",
+      "ids:creationDate" : {
+        "@value" : "2022-06-20T13:54:49.308Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/8f3950dd-8376-486a-862b-4c5d3da81b7f",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Juni 2022 (EXCEL)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/XLSX"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Juni 2022",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/55067547-ac91-4588-943a-cd2b19dc2440",
+      "ids:creationDate" : {
+        "@value" : "2022-06-20T13:56:00.116Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/783b39e5-3ce4-4c2f-986e-c4e0b6be74e8",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Juli 2022 (CSV)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/CSV"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Juli 2022",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/4d5499b9-22ef-42c4-93a6-de8ea0a6a629",
+      "ids:creationDate" : {
+        "@value" : "2022-08-25T08:19:50.586Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/c04b4d52-9700-4158-9dca-65cf0d466e05",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Juli 2022 (JSON)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "https://www.iana.org/assignments/media-types/application/json"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Juli 2022",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/22cadd03-501d-48f1-9c1d-c0d53eadecde",
+      "ids:creationDate" : {
+        "@value" : "2022-08-25T08:20:50.786Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/c38b362f-9150-4f40-a281-28ff67977111",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im Juli 2022 (EXCEL)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/XLSX"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im Juli 2022",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/8ee97f25-ab71-4e65-91e2-5f03a38ba9a9",
+      "ids:creationDate" : {
+        "@value" : "2022-08-25T08:21:46.794Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/304d6bb0-5b9b-491a-ae2f-383b4da4c32e",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im August 2022 (CSV)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/CSV"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im August 2022",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/dd921f0f-2c8a-4434-8219-7dd8a1b150fc",
+      "ids:creationDate" : {
+        "@value" : "2022-08-25T08:22:43.898Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/c68a4792-350c-4ee8-947e-d785f7461d03",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im August 2022 (JSON)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "https://www.iana.org/assignments/media-types/application/json"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im August 2022",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/3a9ab44f-a103-49d2-92dd-46af4fbcd5ee",
+      "ids:creationDate" : {
+        "@value" : "2022-08-25T08:23:32.433Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/cf65df82-2325-4389-b31b-2492f2e06c2b",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im August 2022 (EXCEL)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/XLSX"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im August 2022",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/e89ac8cc-3ee6-4d69-91d4-488372085c17",
+      "ids:creationDate" : {
+        "@value" : "2022-08-25T08:24:12.962Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/8b9f8fe4-8485-4cb0-adb9-4c8c8cd0b847",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im September 2022 (CSV)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/CSV"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im September 2022",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/69ce479e-89ca-4ea1-946c-3ce30d5f2d31",
+      "ids:creationDate" : {
+        "@value" : "2022-09-28T06:35:04.460Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/81ef097f-f3aa-451f-b10e-494f016075ac",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im September 2022 (JSON)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "https://www.iana.org/assignments/media-types/application/json"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im September 2022",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/c1dabfef-11f5-42af-b843-347b71e60ae2",
+      "ids:creationDate" : {
+        "@value" : "2022-09-28T06:36:03.112Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  }, {
+    "@type" : "ids:DataRepresentation",
+    "@id" : "https://w3id.org/idsa/autogen/dataRepresentation/97c43f86-97d8-45ca-9110-9e619cd24514",
+    "ids:title" : [ {
+      "@value" : "Fahrradzähldaten im September 2022 (EXCEL)",
+      "@language" : "de"
+    } ],
+    "ids:mediaType" : {
+      "@type" : "ids:CustomMediaType",
+      "@id" : "http://publications.europa.eu/resource/authority/file-type/XLSX"
+    },
+    "http://purl.org/dc/terms/license" : [ {
+      "@id" : "http://dcat-ap.de/def/licenses/dl-by-de/2.0"
+    } ],
+    "https://w3id.org/mdp/schema#typeOfTermsOfUse" : [ {
+      "@type" : "https://w3id.org/mdp/schema#MdpLicense",
+      "@id" : "https://w3id.org/mdp/schema/license#LICENSE_FREE_USE_OPEN_DATA"
+    } ],
+    "https://w3id.org/mdp/schema#dataModel" : [ {
+      "@type" : "https://w3id.org/mdp/schema#DataModel",
+      "@id" : "https://w3id.org/mdp/schema/data_model#MODEL_OTHER"
+    } ],
+    "ids:description" : [ {
+      "@value" : "Fahrradzähldaten im September 2022",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    } ],
+    "ids:instance" : [ {
+      "@type" : "ids:Artifact",
+      "@id" : "https://w3id.org/idsa/autogen/artifact/c4303ee6-4a98-439a-ba24-e8c23be4bafb",
+      "ids:creationDate" : {
+        "@value" : "2022-09-28T06:37:13.562Z",
+        "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+      }
+    } ]
+  } ],
+  "ids:theme" : [ {
+    "@id" : "http://publications.europa.eu/resource/authority/data-theme/TRAN"
+  } ],
+  "ids:created" : {
+    "@value" : "2022-07-08T09:20:07.185Z",
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp"
+  },
+  "ids:description" : [ {
+    "@value" : "Bei den aufgelisteten Daten handelt es sich um gebündelte Fahrradzähldaten der aktuellen Eco-Counter Fahrradzählstellen in Städten und Gemeinden aus Baden-Württemberg. Über die Eco Visio Domain und den API-Store des Fahrradzählstellenbetreibers EcoCounter werden die lokal erhobenen Fahrradzähldaten abgerufen und in die hier genannten Ausgabeformate überführt.\r\n\r\nDerzeit stellen die unten aufgeführten Städte die Fahrradzähldaten über die EcoCounter Schnittstelle bereit. Zähldate dieser Städte sind in den hier abrufbaren Datensätzen gebündelt abrufbar. Die Datensätze enthalten historische (seit 2021) und aktuelle (innerhalb von 7 Tagen) Fahrradzähldaten. __Außerdem werden die aktuellen Daten stündlich aktualisiert__. Die Datensätze liegen in verschiedenen Formaten (CSV, JSON und EXCEL) vor. \r\n\r\nDie Anzahl der integrierten Kommunen wird kontinuierlich erweitert.\r\n\r\n__Städte der aktuellen Fahrradzählstellen__\r\n\r\n* __*__ Stadt Freiburg im Breisgau\r\n\r\n* __*__ Stadt Heidelberg\r\n\r\n* __*__ Stadt Konstanz\r\n\r\n* __*__ Stadt Offenburg\r\n\r\n* __*__ Stadt Ludwigsburg\r\n\r\n* __*__ Stadt Ulm\r\n\r\n__Datenquellen__\r\n\r\n* __*__ [Eco-Visio](https://www.eco-visio.net/)\r\n* __*__ [Eco-Counter API Store](https://apiadmin.eco-counter-tools.com/store/site/pages/list-apis.jag)\r\n\r\n# Haftungsausschluss\r\n\r\nDieser Datenbestand kann Fehler enthalten und/oder unvollständig sein. Die NVBW mbH übernimmt keine Haftung und leistet keinerlei Gewähr.\r\n",
+    "@language" : "de"
+  } ],
+  "http://www.w3.org/ns/adms#status" : [ {
+    "@type" : "https://w3id.org/mdp/schema#Status",
+    "@id" : "https://w3id.org/mdp/schema/status#PUBLISHED"
+  } ],
+  "https://w3id.org/mdp/schema#visibility" : [ {
+    "@type" : "https://w3id.org/mdp/schema#AccessRights",
+    "@id" : "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+  } ]
+}
