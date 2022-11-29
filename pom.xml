@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <properties>
+        <revision>5.0.4</revision>
+        <infomodel.version>5.0.3</infomodel.version>
+        <serializer.version>5.0.4</serializer.version>
+        <provider.version>5.0.4</provider.version>
+    </properties>
+
+    <groupId>de.fraunhofer.iais.eis.ids</groupId>
+    <artifactId>ids-serializer-modules</artifactId>
+    <version>${revision}</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>ids-infomodel-validation-serialization-provider</module>
+        <module>ids-infomodel-serializer</module>
+    </modules>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <configuration>
+                        <source>1.5</source>
+                        <target>1.5</target>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
+    <distributionManagement>
+        <repository>
+            <id>isst-repo</id>
+            <name>Maven repository at ISST</name>
+            <url>https://mvn.isst.fraunhofer.de/nexus/repository/ids-local</url>
+        </repository>
+    </distributionManagement>
+
+    <repositories>
+        <repository>
+            <id>eis-public-repo</id>
+            <name>maven-public</name>
+            <url>https://maven.iais.fraunhofer.de/artifactory/eis-ids-public</url>
+        </repository>
+            <repository>
+                <id>eis-snapshot-repo</id>
+                <name>maven-public</name>
+                <url>https://maven.iais.fraunhofer.de/artifactory/eis-ids-snapshot</url>
+            </repository>
+    </repositories>
+</project>

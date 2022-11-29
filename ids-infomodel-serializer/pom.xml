@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>de.fraunhofer.iais.eis.ids</groupId>
+		<artifactId>ids-serializer-modules</artifactId>
+		<version>${revision}</version>
+	</parent>
 
 	<groupId>de.fraunhofer.iais.eis.ids</groupId>
 	<artifactId>infomodel-serializer</artifactId>
-	<version>${revision}</version>
+	<version>${serializer.version}</version>
 
 	<developers>
 		<developer>
@@ -28,11 +34,11 @@
 		<!--<java.version>11</java.version>-->
 		<!--<infomodel.version>${revision}</infomodel.version>-->
 		<classgraph.version>4.8.109</classgraph.version>
-		<infomodel.version>5.0.3</infomodel.version>
+		<!--<infomodel.version>5.0.3</infomodel.version>-->
 		<jackson.version>2.11.2</jackson.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<rdfj4.version>3.1.2</rdfj4.version>
-		<revision>5.0.4</revision>
+		<!--<revision>5.0.4</revision>-->
 	</properties>
 
 	<dependencies>
@@ -47,7 +53,7 @@
 			<groupId>de.fraunhofer.iais.eis.ids.infomodel</groupId>
 			<artifactId>java</artifactId>
 			<scope>test</scope>
-		    <version>${infomodel.version}</version>
+			<version>${infomodel.version}</version>
 		</dependency>
 
 		<dependency>
