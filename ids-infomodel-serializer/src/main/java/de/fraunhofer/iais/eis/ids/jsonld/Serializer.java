@@ -29,8 +29,8 @@ public class Serializer {
     private final List<JsonPreprocessor> preprocessors; //TODO: It seems like this list is never used...
     private final Logger logger = LoggerFactory.getLogger(Serializer.class);
 
-    public static String implementingClassesNamePrefix = "";
-    public static String implementingClassesNameSuffix = "Impl";
+    public static final String implementingClassesNamePrefix = "";
+    public static final String implementingClassesNameSuffix = "Impl";
 
     private static boolean charsetWarningPrinted = false;
 
@@ -49,6 +49,7 @@ public class Serializer {
             logger.warn("Standard Charset is set to " + Charset.defaultCharset() + " - expecting " + StandardCharsets.UTF_8 + ". Some characters might not be displayed correctly.\nThis warning is only printed once");
         }
 
+        mapper.registerModule(new JsonLDModule());
     }
 
     /**
@@ -67,7 +68,6 @@ public class Serializer {
         if (format != RDFLanguages.JSONLD && format != RDFLanguages.TURTLE && format != RDFLanguages.RDFXML) {
             throw new IOException("RDFFormat " + format + " is currently not supported by the serializer.");
         }
-        mapper.registerModule(new JsonLDModule());
         String jsonLD = (instance instanceof Collection)
                 ? serializeCollection((Collection<?>) instance)
                 : mapper.writerWithDefaultPrettyPrinter().writeValueAsString(instance);

@@ -5,10 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <properties>
-        <revision>5.0.4</revision>
+        <revision>5.0.5-SNAPSHOT</revision>
         <infomodel.version>5.0.3</infomodel.version>
-        <serializer.version>5.0.4</serializer.version>
-        <provider.version>5.0.4</provider.version>
+        <serializer.version>5.0.5-SNAPSHOT</serializer.version>
+        <provider.version>5.0.5-SNAPSHOT</provider.version>
     </properties>
 
     <groupId>de.fraunhofer.iais.eis.ids</groupId>

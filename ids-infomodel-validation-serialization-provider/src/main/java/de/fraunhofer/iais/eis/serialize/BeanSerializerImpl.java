@@ -2,13 +2,14 @@ package de.fraunhofer.iais.eis.serialize;
 
 import de.fraunhofer.iais.eis.SerializationException;
 import de.fraunhofer.iais.eis.ids.jsonld.Serializer;
+import de.fraunhofer.iais.eis.ids.jsonld.SerializerFactory;
 import de.fraunhofer.iais.eis.spi.BeanSerializer;
 
 import java.io.IOException;
 
 public class BeanSerializerImpl implements BeanSerializer {
 
-    private final Serializer serializer = new Serializer();
+    private final Serializer serializer = SerializerFactory.getInstance();
 
     @Override
     public String toRdf(Object obj) {

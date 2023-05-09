@@ -14,6 +14,8 @@ public class TypeNamePreprocessor extends BasePreprocessor {
 
 	private static final Map<String, String> prefixes;
 
+	private final ObjectMapper mapper = new ObjectMapper();
+
 	static {
 		prefixes = new HashMap<>();
 		prefixes.put("ids:", "https://w3id.org/idsa/core/");
@@ -24,7 +26,6 @@ public class TypeNamePreprocessor extends BasePreprocessor {
 
 	@Override
 	String preprocess_impl(String input) throws IOException {
-		ObjectMapper mapper = new ObjectMapper();
 		Map<Object, Object> inMap = mapper.readValue(input, Map.class);
 		Map<Object, Object> outMap = unifyTypeURIPrefix(inMap);
 		return mapper.writeValueAsString(outMap);
